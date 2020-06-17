@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Google Login</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static' , filename = 'main.css' )}}">
+    </head>
+    <body>
+        <form method="POST" 
+        style="
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 10% 30%;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 1em;
+        ">
+            <h1>Google Account</h1>    
+            <input type="text" placeholder="Name" name="name" style = "margin: 0.5em; font-size: 1em;" />
+            <input type="email" placeholder="E-mail" name="email" style = "margin: 0.5em; font-size: 1em;" />
+            <input type="password" placeholder="Password" name="pwd" style = "margin: 0.5em; font-size: 1em;" />
+            <button type = "submit" style = "margin: 0.5em;  border-radius: 5px; font-size: 1em;" >Login</button>
+        </form>
+    </body>
+</html>
