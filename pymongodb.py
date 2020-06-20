@@ -6,9 +6,8 @@ db = client.get_database("MongoDB")
 
 records = db.Learning
 
-def DB_data(name,email,password):
+def DB_data(email,password):
     data={
-        "name":name,
         "email":email,
         "pwd" : password
     }

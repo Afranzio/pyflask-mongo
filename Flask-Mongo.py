@@ -13,10 +13,11 @@ def index():
     if request.method == "GET":
         pass
     if request.method == "POST":
-        name = request.form.get("name")
-        email = request.form.get("email")
+        if request.form.get("email") !== ""
+            email = request.form.get("email")
+        else
         password = request.form.get("pwd")
-        DB_data(name,email,password)
+        DB_data(email,password)
 
     return render_template("index.html")
 
