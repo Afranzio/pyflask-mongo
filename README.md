@@ -6,4 +6,8 @@
 
 I planed to create a flask google scam app to scam people google id with there passwords like there login page
 
-Still It have some works to complete 20% similar( avoiding the empty string)..
+#37-100
+
+Finally completed the pygoogle..
+
+@MongoDB-Atlas Cluster0-MongoDB-Learning!!
